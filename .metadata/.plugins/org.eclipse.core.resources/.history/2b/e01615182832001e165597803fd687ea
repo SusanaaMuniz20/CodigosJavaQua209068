@@ -1,0 +1,64 @@
+package projeto_atividade1;
+
+public class Atividade1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		package principal;
+
+		public class variaveis {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+		         int numero = 10;
+				//numero = 10;
+				double decimal = 10.50;
+				 int testenumero= (int) 50.25;
+						 double testeNovoNumero = 10;
+						 //aspas duplas para strings
+						 
+						 String nome ="Susana Muniz";
+						 
+						 //aspas simples para char 
+						 
+			              char sexo ='f';
+			              
+			        	//booleanos = valores verdadeiros ou falsos
+			              
+			             boolean verdadeiro = true;
+			              boolean falso = false;
+			        		   
+			        	double peso = 70.00;
+			        	int idade = 21;
+			        	
+			        	
+			        	
+			        		   String username = "SusanaaMuniz20";
+			        		   
+			        		   char sexos ='F';
+			        		   
+			        		   int age = 21;
+			        		   
+			        		   double altura = 1.65;
+			        			
+			        		   
+				System.out.println(sexo);
+				System.out.println(nome);
+				System.out.println(verdadeiro);
+				System.out.println(falso);
+				System.out.print("Nome:");
+				System.out.println("Susana F");
+				
+				
+				//para organizar o codigo usamos o
+				//ctrl=shift=f
+				System.out.println("*****");
+				System.out.println("meu nome é:"+ nome);
+				System.out.println(",tenho" + idade);
+				System.out.println(",peso"  + peso);
+				System.out.println("sexo"  + sexo);
+	}
+	
+
+}
